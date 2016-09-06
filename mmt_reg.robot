@@ -12,9 +12,9 @@ Default Tags      DCM    NONDCM
 *** Variables ***
 ${LTE_VER}               9.2.4
 ${3G_VER}                8.0.3
-${HARDWARE}              3201
+${HARDWARE}              3002
 ${MMTSS_VERSION}         10
-${VERSION}               18.20.16.2
+${VERSION}               9.0.1.2
 
 ${API_VER}               ${HARDWARE}_API_v${LTE_VER}(LTE)_API_v${3G_VER}(3G)
 
@@ -140,7 +140,7 @@ Text Output for messages greater than 25 bytes
 *** Keywords ***
 Initialize Paths
    ${path} =    Set Variable if    ${DCM}   
-   ...   C:\\BS3201_Tools\\MMT_DCM\\    C:\\BS3201_Tools\\MMT\\
+   ...   C:\\BS${HARDWARE}_Tools\\MMT_DCM\\    C:\\BS${HARDWARE}_Tools\\MMT\\
    ${startmenu_path} =    Set Variable if    ${DCM}
    ...   C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\MMT_DCM.lnk
    ...   C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\MMT.lnk
