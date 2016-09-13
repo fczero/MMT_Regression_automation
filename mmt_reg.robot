@@ -12,9 +12,9 @@ Default Tags      DCM    NONDCM
 *** Variables ***
 ${LTE_VER}               9.2.4
 ${3G_VER}                8.0.3
-${HARDWARE}              3002
+${HARDWARE}              3201
 ${MMTSS_VERSION}         10
-${VERSION}               9.0.1.2
+${VERSION}               18.20.17.2
 
 ${API_VER}               ${HARDWARE}_API_v${LTE_VER}(LTE)_API_v${3G_VER}(3G)
 
