@@ -10,11 +10,11 @@ Library           mmt_registry.py
 Default Tags      DCM    NONDCM
 
 *** Variables ***
-${LTE_VER}               9.2.4
-${3G_VER}                8.0.3
+${LTE_VER}               10.0.0
+${3G_VER}                8.0.1
 ${HARDWARE}              3201
-${MMTSS_VERSION}         10
-${VERSION}               18.20.17.2
+${MMTSS_VERSION}         11
+${VERSION}               19.10.4.2
 
 ${API_VER}               ${HARDWARE}_API_v${LTE_VER}(LTE)_API_v${3G_VER}(3G)
 
